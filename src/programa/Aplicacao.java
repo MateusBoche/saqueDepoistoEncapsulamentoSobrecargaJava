@@ -28,6 +28,8 @@ public class Aplicacao {
             }else if (opcao ==2){
                 conta = new Banco(numeroConta,nomeConta);
 
+            }else{
+                System.out.println("Como nao foi digitada uma opcao valida, vamos inicar o valor com 0!");
             }
         }catch (Exception exception){
             System.out.println("Digite uma opcao valida! ");
